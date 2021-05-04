@@ -63,27 +63,5 @@ sr.reveal('.home_title' , {})
 sr.reveal('.home_scroll' , {delay: 200})
 sr.reveal('.home_img' , {origin: 'right' , delay: 400})
 
-/* scroll about
-sr.reveal('.about_img' , {delay: 500})
-sr.reveal('.about_subtitle' , {delay: 300})
-sr.reveal('.about_profession' , {delay: 400})
-sr.reveal('.about_text' , {delay: 500}) */
-sr.reveal('.about_social-icon' , {delay: 600, interval:200})
-
-/* scroll dj + radio
-sr.reveal('.djradio_img' , {delay: 500})
-sr.reveal('.djradio_subtitle' , {delay: 300})
-sr.reveal('.djradio_text' , {delay: 500})
-sr.reveal('.play' , {delay: 200}) */
 
 
-
-/* scroll portfolio*/
-
-sr.reveal('.portfolio_img' , {interval: 100})
-
-/* scroll contact
-sr.reveal('.contact_subtitle' , {})
-sr.reveal('.contact_text' , {interval: 200})
-sr.reveal('.contact_input' , {delay: 400})
-sr.reveal('.contact_button' , {delay: 600}) */

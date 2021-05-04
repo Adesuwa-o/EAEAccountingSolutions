@@ -8,11 +8,12 @@
 
 /* colours*/
 :root{
-    --first-color:#D1C6AD;
+    --first-color:#9EB3C2;
     --white-color:#FAFAFF;
     --dark-color: #2A3B47;
     --text-color: #000000;
-   /* other colours #D1C6AD beige  #ffd390 995D81 darl pink ; #DD7373 pink  #B59DA4 #40531B olive FFBA49 yellow; A491D3; purple  */ 
+    --back-color: #f1f1f1;
+   /* other colours #f1f1f1 */ 
 }
 
 /* typography */
@@ -92,7 +93,7 @@ img{
 }
 
 .thanks_container{
-    line-height: 2rem;
+    line-height: 3rem;
     margin-top: 10rem;
 }
 
@@ -249,13 +250,16 @@ img{
 }
 /* About*/
 
+.about {
+    background-color: var(--back-color);
+}
+
 .about_container{
     justify-items: center;
     row-gap: 2rem;
     text-align: center;
-
+    display: flex;
 }
-
 
 .about_subtitle{
     font-size: var(--h2-font-size);
@@ -263,25 +267,32 @@ img{
     margin-bottom: var(--mb-1);
 }
 .about_text{
-    margin-bottom: var(--mb-4);
-
+    display: block;
+    padding: 10rem 8rem;
+    margin: auto;
+    text-align: center;
+   
 }
 
 .about_profession{
-    display: block;
+    display: flex;
     margin-bottom: var(--mb-4);
 }
-.about_social-icon{
-    font-size: 1.4rem;
-    margin: 0 var(--mb-1);
-}
-.about_social-icon:hover{
-    color: var(--first-color) ;
-}
 
+.services_text{
+    display: block;
+    padding: 2.7rem 8rem;
+    margin: auto;
+    text-align: center;
+   
+}
 
 
 /* Contact*/
+
+.contact {
+    background-color: var(--back-color);
+}
 .contact_container{
     row-gap: 2rem;
     display: flex;    
@@ -325,6 +336,10 @@ img{
 
 Footer*/
 
+footer {
+    background-color: var(--back-color);
+}
+
 .footer_container{
     row-gap: 2rem;
 }
@@ -350,7 +365,8 @@ Footer*/
 
 .footer-bottom{
     font-size: 0.8rem;   
-    padding: 1rem 0;
+    padding: 0.5rem 0;
+    margin-left: 2rem;
     
 }
 

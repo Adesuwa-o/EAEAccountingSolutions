@@ -63,5 +63,10 @@ sr.reveal('.home_title' , {})
 sr.reveal('.home_scroll' , {delay: 200})
 sr.reveal('.home_img' , {origin: 'right' , delay: 400})
 
+/*SCROLL SKILLS*/
+sr.reveal('.skills__subtitle', {})
+sr.reveal('.skills__name', {distance: '20px', delay: 50, interval: 100})
+sr.reveal('.skills__img', {delay: 400})
+
 
 

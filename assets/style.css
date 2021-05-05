@@ -12,7 +12,7 @@
     --white-color:#FAFAFF;
     --dark-color: #2A3B47;
     --text-color: #000000;
-    --back-color: #f1f1f1;
+    --back-color: #ffffff;
    /* other colours #f1f1f1 */ 
 }
 
@@ -286,6 +286,36 @@ img{
     text-align: center;
    
 }
+
+.services {
+    background-color: var(--back-color);
+}
+
+/* ===== SKILLS =====*/
+.skills__container{
+    row-gap: 2rem;
+}
+.skills__subtitle{
+    color: var(--first-color);
+    margin-bottom: var(--mb-3);
+}
+.skills__name{
+    display: inline-block;
+    font-size: var(--small-font-size);
+    margin-right: var(--mb-2);
+    margin-bottom: var(--mb-3);
+    padding: .25rem .5rem;
+    background-color: var(--white-color);
+    border-radius: .25rem;
+}
+.skills__name:hover{
+    background-color: var(--first-color);
+    color: var(--white-color);
+}
+.skills__img img{
+    border-radius: .5rem;
+}
+
 
 
 /* Contact*/

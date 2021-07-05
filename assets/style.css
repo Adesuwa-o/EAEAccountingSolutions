@@ -361,6 +361,16 @@ img{
  
 }
 
+.thanks{
+    overflow: visible;
+    text-align: center;
+}
+
+.thanks_container{
+    line-height: 3rem;
+    margin-top: 10rem;
+    padding: 0.3rem;
+}
 /* Footer*/
 /* 
 
